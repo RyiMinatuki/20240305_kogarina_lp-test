@@ -1,0 +1,577 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    width: 100vw;
+}
+
+.header {
+    width: 100vw;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+}
+
+.header__inner-left {
+    padding-left: 5vw;
+}
+
+.header__logo {
+    height: auto;
+    width: 20vw;
+}
+
+.header__inner-right {
+    padding-right: 8vw;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: end;
+    color: #6e6e6e;
+}
+
+.header__nav-item {
+    padding-left: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+
+
+.eyecatch {
+    width: 100vw;
+    margin-bottom: 10vw;
+}
+
+.eyecatch__content {
+    display: block;
+    margin: 4% 0 0 14vw;
+    position: absolute;
+    z-index: 0;
+}
+
+.eyecatch__content-title {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 5vw;
+    font-weight: bolder;
+    font-style: normal;
+    color: #b12567;
+    line-height: 180%;
+    margin-bottom: 6%;
+}
+
+.eyecatch__content-sub-title {
+    font-size: 2vw;
+    line-height: 150%;
+    color: #b12567;
+}
+
+.eyecatch__content--bluegreen {
+    color: #3aa9b3;
+}
+
+.eyecatch__content-description {
+    font-size: 1.5vw;
+    line-height: 150%;
+    margin-top: 2%;
+}
+
+.eyecatch__img {
+    display: flex;
+    justify-content: end;
+    width: 60vw;
+    margin: 0 0 0 auto;
+    z-index: -10;
+}
+
+
+
+.news {
+    width: 100vw;
+    margin: 10vw auto;
+}
+
+.news__title {
+    display: block;
+    width: 60vw;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1.8vw;
+    color: #b12567;
+    position: relative;
+    padding-bottom: 6vw;
+    margin: 1rem auto;
+}
+
+.news__title::after {
+    content: "新着情報";
+    font-size: 2.3vw;
+    color: #777777;
+    position: absolute;
+    top: 2.3vw;
+    left: 0%;
+}
+
+.news__table {
+    width: 60vw;
+    margin: 1rem auto;
+    border-top: solid 2px #777777;
+    border-bottom: solid 2px #777777;
+}
+
+.news__post {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.6vw;
+    line-height: 130%;
+    padding: 1.2vw 0;
+    border-bottom: solid 1px #777777;
+}
+
+.news__post--first {
+    line-height: 130%;
+    margin-top: 5vw;
+}
+
+.news__post--last {
+    line-height: 1rem;
+}
+
+.news__post-modified {
+    margin-right: 1.2rem;
+}
+
+.news__post-item--round {
+    font-size: 1.2vw;
+    color: #fff;
+    padding: 0.1vw 0.5vw;
+    background-color: #b12567;
+    border-radius: 30px;
+}
+
+.news__post-text {
+    margin-left: 2vw;
+}
+
+
+
+
+.about {
+    width: 100vw;
+    margin: 10vw auto;
+}
+
+.about__title {
+    display: block;
+    width: 10vw;
+    margin: 0rem auto;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1.8vw;
+    color: #b12567;
+    position: relative;
+}
+
+.about__title::after {
+    content: "Tecnology × Coaching";
+    font-family: normal;
+    font-size: 2.3vw;
+    color: #707070;
+    width: 40vw;
+    position: absolute;
+    top: 2.3vw;
+    left: -100%;
+}
+
+.about__content {
+    width: 70vw;
+    margin: 8vw auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__content-text {
+    width: 30vw;
+    font-size: 1.25vw;
+    line-height: normal;
+}
+
+.about__content-text-1 {
+    margin-bottom: 1.5vw;
+}
+
+.about__content-img {
+    width: 30vw;
+    height: auto;
+}
+
+
+
+
+.service {
+    width: 100vw;
+    margin: 10vw auto;
+}
+
+.service__title {
+    display: block;
+    width: 60vw;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1.8vw;
+    color: #b12567;
+    position: relative;
+    padding-bottom: 6vw;
+    margin: 0 15vw;
+}
+
+.service__title::after {
+    content: "サービス内容";
+    font-family: normal;
+    font-size: 2.3vw;
+    color: #707070;
+    width: 40vw;
+    position: absolute;
+    top: 2.3vw;
+    left: 0%;
+}
+
+.service__content {
+    width: 70vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 15vw 15vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service__card-title {
+    font-size: 1.4vw;
+    color: #fff;
+    margin: 1.5vw 0;
+}
+
+.service__card-text {
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+    color: #fff;
+}
+
+.service__card-text--left {
+    width: 80%;
+}
+
+.service__card-text--right {
+    width: 60%;
+}
+
+.service__card-img {
+    width: 9vw;
+    margin: 1vw;
+}
+
+.service__content-card-1 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    background-color: #b31667;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service__content-card-2 {
+    grid-row: 1/1;
+    grid-column: 2/2;
+    background-color: #b35b8b;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service__content-card-3 {
+    grid-row: 2/2;
+    grid-column: 2/2;
+    background-color: #b2889e;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.blog {
+    width: 100vw;
+    margin: 10vw auto;
+    padding: 3vw 0 3vw 0 ;
+    font-size: 1.2vw;
+    background-color: #f5f5f5;
+}
+
+.blog__title {
+    display: block;
+    width: 60vw;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1.8vw;
+    color: #b12567;
+    position: relative;
+    padding-bottom: 6vw;
+    margin: 0 15vw;
+}
+
+.blog__title::after {
+    content: "ブログ";
+    font-family: normal;
+    font-size: 2.3vw;
+    color: #707070;
+    width: 40vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 0%;
+}
+
+.blog__content {
+    width: 70vw;
+    margin: 0 auto 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__content-card {
+    width: 28%;
+    padding: 0 0 1vw 0;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.blog__card-tab {
+    font-size: 1vw;
+    color: #fff;
+    background-color: #b31667;
+    display: block;
+    width: 2.5vw;
+    padding: 0.5vw;
+    position: absolute;
+    border-radius: 5px 0 0 0;
+}
+
+.blog__card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.blog__card-text {
+    margin: 1.8vw auto;
+    width: 95%;
+    line-height: 1.8vw;
+}
+
+.blog__card-item {
+    display: flex;
+    justify-content: space-between;
+    color: #6e6e6e;
+    margin: 0 1vw 0 1vw;
+}
+
+.blog__list-link {
+    display: block;
+    width: 7.5vw;
+    padding: 1vw;
+    margin: 0 auto;
+    color: #b31667;
+    border: solid 0.1vw #b31667;
+    border-radius: 30px;
+}
+
+
+
+
+.company-profile {
+    font-size: 1.2vw;
+    width: 100vw;
+    margin: 10vw auto;
+}
+
+.company-profile__title {
+    display: block;
+    width: 60vw;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1.8vw;
+    color: #b12567;
+    position: relative;
+    padding-bottom: 6vw;
+    margin: 0 20vw;
+}
+
+.company-profile__title::after {
+    content: "会社概要";
+    font-family: normal;
+    font-size: 2.3vw;
+    color: #707070;
+    width: 40vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 0%;
+}
+
+.company-profile__table {
+    border: solid 0.1vw #6e6e6e;
+    line-height: 3vw;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.company-profile__tr {
+    text-align: left;
+}
+
+.company-profile__th {
+    border: solid 0.1vw #6e6e6e;
+    width: 30%;
+    background-color: #f5f5f5;
+    padding: 0.5vw;
+}
+
+.company-profile__td {
+    border: solid 0.1vw #6e6e6e;
+    padding: 0.5vw;
+}
+
+
+
+
+.more {
+    width: 100vw;
+    height: 30vw;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50vw;
+    height: auto;
+}
+
+.info__img {
+    width: 50vw;
+    height: auto;
+    z-index: 1;
+}
+
+.info__text {
+    font-size: 3vw;
+    font-weight: bolder;
+    color: #fff;
+    position: absolute;
+    top: 10vw;
+    left: 18vw;
+    z-index: 5;
+}
+
+.interview {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 0vw;
+    left: 50vw;
+    z-index: 1;
+}
+
+.interview__img {
+    width: 50vw;
+    height: auto;
+    z-index: 1;
+}
+
+.interview__text {
+    font-size: 3vw;
+    font-weight: bolder;
+    color: #fff;
+    z-index: 5;
+    position: absolute;
+    top: 10vw;
+    left: 15vw;
+}
+
+
+
+
+.inquiry {
+    width: 100vw;
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.inquiry__text {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item__border-left {
+    display: block;
+    width: 2px;
+    font-size: 4vw;
+    line-height: 4vw;
+    margin: 2vw auto;
+    border-left: solid 1px #eb6ead;
+}
+
+.inquiry__buttan {
+    display: block;
+    font-size: 1.5vw;
+    width: 15vw;
+    padding: 1vw 3vw;
+    line-height: 5vw;
+    margin: 0 auto;
+    color: #fff;
+    text-align: right;
+    background: linear-gradient(90deg, #fc1e8d, #b41768);
+    border-radius: 5vw;
+    box-shadow: #840151 0.5vw 0.5vw;
+    position: relative;
+    z-index: 1;
+}
+
+.inquiry__buttan::before {
+    content: "";
+    display: block;
+    background: url(img/mailicon.svg);
+    background-size: contain;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 12%;
+    left: 13%;
+    z-index: 5;
+}
+
+.inquiry__img {
+    background: #6e6e6e;
+}
+
+
+
+.footer {
+    width: 100vw;
+    margin: 10vw auto;
+}
+
+.copy {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
