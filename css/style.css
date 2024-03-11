@@ -165,6 +165,7 @@ main {
 
 .about {
     width: 100vw;
+    padding: 3vw 0;
     margin: 10vw auto;
     background-color: #f5f5f5;
 }
