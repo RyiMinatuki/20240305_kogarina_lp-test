@@ -39,7 +39,7 @@ main {
 
 .header__nav-item {
     padding-left: 2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
@@ -176,7 +176,7 @@ main {
     margin: 0rem auto;
     font-family: "Gloria Hallelujah", cursive;
     font-size: 1.8vw;
-    color: #b12567;
+    color: #b31667;
     position: relative;
 }
 
